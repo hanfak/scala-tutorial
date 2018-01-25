@@ -8,6 +8,8 @@ object PartialFunction extends App {
     case item@("Book" | "Ball") => s"$item begins with B"
   }
 
+
+
   val isUseful: PartialFunction[String, String] = {
     case "Knife" => "useful"
   }
@@ -26,4 +28,6 @@ object PartialFunction extends App {
   println(combinedChecks("Knife"))
   println(combinedChecks("Chocolate Donut"))
 
+
 }
+

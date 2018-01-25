@@ -13,6 +13,8 @@ object CompanionObjects extends App {
     def apply(name: String, productCode: Long): Item = {
       new Item(name, productCode)
     }
+
+    def blah(): Unit = println("like a static method")
   }
 
   val book: Item = Item("Book", 111)
@@ -20,4 +22,10 @@ object CompanionObjects extends App {
 
   book.print()
   ball.print()
+  Item.blah
+  println(Item.hashCode())
+  println(book.hashCode())
+  println(Item.hashCode())
+  println(book.hashCode())
+  println(ball.hashCode())
 }
