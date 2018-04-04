@@ -1,4 +1,4 @@
-package com.hanfak.ninetynineproblems.ex02
+package com.hanfak.ninetynineproblems.ex01
 
 import org.scalatest.FunSuite
 

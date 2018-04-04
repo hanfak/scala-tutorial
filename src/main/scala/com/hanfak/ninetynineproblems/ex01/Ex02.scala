@@ -1,4 +1,4 @@
-package com.hanfak.ninetynineproblems.ex02
+package com.hanfak.ninetynineproblems.ex01
 
 class Ex02 {
   def penultimate(ints: List[Int]): Int = {

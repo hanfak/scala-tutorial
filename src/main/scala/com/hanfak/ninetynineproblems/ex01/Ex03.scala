@@ -1,4 +1,4 @@
-package com.hanfak.ninetynineproblems.ex03
+package com.hanfak.ninetynineproblems.ex01
 
 class Ex03 {
 //  def nth(i: Int, ints: List[Int]): Int = {
